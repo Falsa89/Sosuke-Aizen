@@ -30,7 +30,7 @@ elseif (strpos($text, "illusione") !== false)
 {
 	$response = "non sono più l'Aizen Sosuke che conoscevi? Sfortunatamente era tutta un'illusione... l'Aizen Sosuke che conoscevi non è mai esistito, fin dall'inizio..!";
 }
-elseif (strpos($text, "bugi") !== false)
+elseif (strpos($text, "bugie") !== false)
 {
 	$response = "Questo mondo non è composto da verità o bugie.. Ma solo da fatti!! Tuttavia, coloro che vivono che vivono in questo mondo sbagliano nel credere che solo i fatti a loro favorevoli siano la verità..!! non conoscono altro modo per vivere...";
 }
@@ -42,12 +42,12 @@ if (strpos($text, "superior") !== false)
 {
 	$response = "Immagino sia naturale per gli inferiori attaccarsi ai loro superiori. Se desiderano mantenere il loro livello, non hanno altra scelta che obbedire. Non c'è mai fine a questa catena... All'inizio si è pieni di queste utopie, ma poi per levare questo peso, si cerca di trovare qualcuno sempre più bravo di loro. E i forti ricercano altri ancora più forti, così da rifugiarsi in loro. Ecco come sono nati gli dei. Ma non fare errori, mi rispettano ancora tutti. Da questo momento in avanti, assisterete alla potenza del dio in cui ripongono fiducia. Diverrò quel dio in cui non possono non credere.";
 }
-elseif (strpos($text, "ciel") !== false)
+elseif (strpos($text, "cielo") !== false)
 {
 	$response = "Fin dal principio Nessuno ha mai dominato il regno dei cieli.. Non tu... non io e nemmeno gli Shinigami.... Ma l'insopportabile vuoto sul trono del Cielo terminerà e d'ora in poi siederò io su di esso!";
 
 }
-elseif (strpos($text, "lament") !== false)
+elseif (strpos($text, "lamento") !== false)
 {
 	$response = "questi sono discorsi da perdenti... un vincente dovrebbe parlare di come il mondo dovrebbe essere!! non di come è!!";
 
@@ -62,7 +62,7 @@ elseif (strpos($text, "principi") !== false)
 	$response = "I principi esistono soltanto per gli individui che non possono sopravvivere se non aggrappandosi ad essi. Proseguiamo ora, oltre il confine dei principi del cosmo.";
 
 }
-elseif (strpos($text, "bello") !== false)
+elseif (strpos($text, " bello") !== false)
 {
 	$response = "Pensiamo che un fiore cresciuto sul ciglio di un precipizio sia bello, perché i nostri piedi si fermano sul quel ciglio. Non riusciamo ad avanzare su quel cielo come quel fiore impavido.";
 
@@ -71,7 +71,7 @@ elseif (strpos($text, "imita") !== false)
 {
 	$response = "Gli uomini sono tutti un'imitazione delle scimmie. Gli dei sono tutti un'imitazione degli uomini";
 }
-elseif (strpos($text, "terra") !== false)
+elseif (strpos($text, " terra") !== false)
 {
 	$response = "Prostratevi tutti impotenti, ed osservate la battaglia";
 }
@@ -91,11 +91,11 @@ elseif (strpos($text, "concett") !== false)
 {
 	$response = "Pensi che basti solo la forza per battermi? Sei troppo ottimista. O meglio, credo che i nostri concetti di forza siano troppo diversi. Lascia che te lo dimostri, questa è la vera forza ";
 }
-elseif (strpos($text, "desider") !== false)
+elseif (strpos($text, "desiderio") !== false)
 {
 	$response = "Gli esseri viventi sono sorprendenti, eh. Sono fatti in modo da possedere a livello latente la capacità di realizzare i miseri desideri del loro minuscolo cuore.";
 }
-elseif (strpos($text, "trova") !== false)
+elseif (strpos($text, "trovato") !== false)
 {
 	$response = "Vi aspettate che dica 'Vi ho trovato?' Sbagliato. Ho solo smesso di far finta di cercarvi.";
 }
@@ -107,7 +107,7 @@ elseif (strpos($text, "speranza") !== false)
 {
 	$response = "Per favore... Speranza, fede, fiducia... Queste sono parole di un debole, non ho bisogno di parole del genere.";
 }
-elseif (strpos($text, "fede") !== false)
+elseif (strpos($text, " fede") !== false)
 {
 	$response = "Per favore... Speranza, fede, fiducia... Queste sono parole di un debole, non ho bisogno di parole del genere.";
 }
@@ -119,7 +119,7 @@ elseif (strpos($text, "nascost") !== false)
 {
 	$response = "Non temere quello che puoi vedere. In realtà ciò di cui devi aver paura, è ciò che è nascosto ai tuoi occhi.";
 }
-elseif (strpos($text, "distan") !== false)
+elseif (strpos($text, "distanz") !== false)
 {
 	$response = "Perché insisti a mantenere una tale distanza da me? Se desideri infliggermi un colpo decisivo, dovresti farlo a distanza ravvicinata. O forse hai paura di avvicinarti troppo e lasciare una minima una parte del mio corpo fuori dalla tua visuale ? Se è così, sono deluso. Mantenere la distanza è un fattore chiave in una battaglia tra due combattenti di uguale forza. Tra te e me, le distanze non hanno alcun significato. Osserva. Sono perfettamente in grado di raggiungere il tuo cuore in qualsiasi momento. ";
 }
@@ -131,11 +131,11 @@ elseif (strpos($text, "parole") !== false)
 {
 	$response = "Non usare parole così forti. Ti farà solo sembrare debole";
 }
-elseif (strpos($text, "spazza") !== false)
+elseif (strpos($text, "spazzare") !== false)
 {
 	$response = "Ai miei occhi, non c'è differenza tra spazzare via un granello di polvere o due";
 }
-elseif (strpos($text, "piano") !== false)
+elseif (strpos($text, " piano") !== false)
 {
 	$response = "tutte le battaglie che hai combattuto, erano tutte parte del mio piano.";
 }
@@ -147,19 +147,19 @@ elseif (strpos($text, "girate") !== false)
 {
 	$response = "Non cercare la bellezza in battaglia. Non cercare la bellezza nella morte. Non considerare la tua stessa vita. Se desideri proteggere ciò che deve essere protetto, allora colpisci mentre le spalle del tuo avversario sono girate.";
 }
-elseif (strpos($text, "posso") !== false)
+elseif (strpos($text, " posso") !== false)
 {
 	$response = "No grazie, perché sarebbe noioso";
 }
-elseif (strpos($text, "ridi") !== false)
+elseif (strpos($text, "rido") !== false)
 {
 	$response = "Una ragazza come te dovrebbe sorridere più spesso. I cieli nuvolosi cancellano il sole, e questo abbatte sempre gli spiriti delle persone. Quindi perché non lasciare che il sole splenda ... Per un po 'di più?";
 }
-elseif (strpos($text, "riso") !== false)
+elseif (strpos($text, "sorriso") !== false)
 {
 	$response = "Una ragazza come te dovrebbe sorridere più spesso. I cieli nuvolosi cancellano il sole, e questo abbatte sempre gli spiriti delle persone. Quindi perché non lasciare che il sole splenda ... Per un po 'di più?";
 }
-elseif (strpos($text, "scopo") !== false)
+elseif (strpos($text, " scopo") !== false)
 {
 	$response = "Non si tratta di benefici. Il mio unico scopo è sempre stato quello di schiacciare tutti coloro che cercano di controllarmi.";
 }
